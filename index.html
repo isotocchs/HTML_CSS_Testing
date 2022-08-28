@@ -7,46 +7,51 @@
     <title>CS Web page test</title>
   </head>
   <body>
-    <h1>This is my first heading</h1>
-    <p>this is my first paragraph using p tags</p>
-
+    <header>
+      <h1>This is my first heading</h1>
+      <p>this is my first paragraph using p tags</p>
+    </header>
     <!-- this is some information -->
 
     <!-- we can use comments to explain our code and to get rif of things we don't want right now. -->
     <!-- <h1>This is my first heading</h1>
     <p>this is my first paragraph using p tags</p> -->
-
-    <h2>
-      This is the second heading. Its smaller beacues I'm using h2 instead of h1
-    </h2>
-    <h3>
-      This is the second heading. Its smaller beacues I'm using h3 instead of h1
-    </h3>
-    <p>
-      This is my second paragraph. I just got this off the CCHS website. This
-      course introduces students to the foundational concepts of computer
-      science and challenges them to explore how computing and technology can
-      impact the world. Students work in teams to create apps for mobile
-      devices. <b>I can use b to make things bold.</b> They explore the impact
-      of computing in society and build skills in digital citizenship and
-      cybersecurity.
-      <strong
-        >I can also use strong to make things bold. But strong has other uses
-        that we will talk about later.</strong
-      >
-      Beyond learning the fundamentals of programming, students build
-      computational-thinking skills by applying computer science to
-      collaboration tools, modeling and simulation, and data analysis.
-    </p>
-    <p>
-      <i>I can use i to make things italics</i>
-      In addition, students transfer the understanding of programming gained in
-      <em> We can use em or emphasize to make italics</em>
-    </p>
-    <p>
-      and apply their knowledge to create algorithms for games of chance and
-      strategy.
-    </p>
+    <article>
+      <h2>
+        This is the second heading. Its smaller beacues I'm using h2 instead of
+        h1
+      </h2>
+      <h3>
+        This is the second heading. Its smaller beacues I'm using h3 instead of
+        h1
+      </h3>
+      <p>
+        This is my second paragraph. I just got this off the CCHS website. This
+        course introduces students to the foundational concepts of computer
+        science and challenges them to explore how computing and technology can
+        impact the world. Students work in teams to create apps for mobile
+        devices. <b>I can use b to make things bold.</b> They explore the impact
+        of computing in society and build skills in digital citizenship and
+        cybersecurity.
+        <strong
+          >I can also use strong to make things bold. But strong has other uses
+          that we will talk about later.</strong
+        >
+        Beyond learning the fundamentals of programming, students build
+        computational-thinking skills by applying computer science to
+        collaboration tools, modeling and simulation, and data analysis.
+      </p>
+      <p>
+        <i>I can use i to make things italics</i>
+        In addition, students transfer the understanding of programming gained
+        in
+        <em> We can use em or emphasize to make italics</em>
+      </p>
+      <p>
+        and apply their knowledge to create algorithms for games of chance and
+        strategy.
+      </p>
+    </article>
     <!-- make the first letter of each word bold -->
     <p>
       HTML stands for <strong>H</strong>ype<strong>r</strong> Text Markup
@@ -112,13 +117,39 @@
         width="500"
     /></a>
 
-    <p>
-      We can make a link to our
-      <a href="secondPage.html">Second Page</a>.
-    </p>
-    <p>
-      We can make a link to our
-      <a href="thirdPage.html">Third Page</a>.
-    </p>
+    <!-- New html5 tags that will help -  nav, header, article, footer, aside -->
+    <!-- These tags are used to organize your page. It also helps standardise 
+    your site and give it a consistent look when we start using CSS-->
+
+    <nav>
+      <p>
+        We can make a link to our
+        <a href="secondPage.html">Second Page</a>.
+      </p>
+      <p>
+        We can make a link to our
+        <a href="thirdPage.html">Third Page</a>.
+      </p>
+    </nav>
+    <footer>
+      <p>This is the footer for the page</p>
+      <p>Copyright &copy; Mr Soto 2022</p>
+    </footer>
+
+    <!-- Lets make sure everyone has the same extension - HTML Snippets, HTML CSS,
+    Intellisense, live server, pretty (set defualt), image preview, color
+    highlight, auto rename tag. -->
+
+    <!-- best practice for img folder - img/ in front of picture names -->
+
+    <!-- img source can be from url - copy img address -->
+
+    <!-- <img src="https://i.redd.it/gh4azi3vofk91.jpg" alt="cat" width="500" /> -->
+
+    <!-- making a basic button -->
+
+    <!-- <button>Cool Button</button> -->
+
+    <!-- search for how html tags work on google -->
   </body>
 </html>
