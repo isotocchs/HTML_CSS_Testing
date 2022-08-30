@@ -6,7 +6,9 @@ h1 {
   font-style: italic;
 }
 
-h2 {
+h2,
+h3,
+h4 {
   color: rgb(122, 210, 58);
   font-size: 45px;
   font-family: Arial;
@@ -22,6 +24,6 @@ p {
   line-height: 2;
 }
 
-nav {
+nav p {
   background-color: rgb(255, 187, 0);
 }
