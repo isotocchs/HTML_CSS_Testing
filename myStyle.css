@@ -17,6 +17,11 @@ h4 {
   background-color: blue;
 }
 
+span {
+  font-size: 35;
+  color: darkred;
+}
+
 p {
   font-size: 20px;
   font-family: Arial;
@@ -26,4 +31,13 @@ p {
 
 nav p {
   background-color: rgb(255, 187, 0);
+}
+
+#newPar {
+  font-style: italic;
+  color: brown;
+}
+
+.newList {
+  list-style: disc;
 }

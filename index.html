@@ -30,13 +30,17 @@
       </h3>
 
       <!-- lets try some inline css -->
+      <!-- you can use <span></span> to select one section of text -->
+
       <p>
         This is my second paragraph. I just got this off the CCHS website. This
         course introduces students to the foundational concepts of computer
-        science and challenges them to explore how computing and technology can
-        impact the world. Students work in teams to create apps for mobile
-        devices. <b>I can use b to make things bold.</b> They explore the impact
-        of computing in society and build skills in digital citizenship and
+        science and challenges
+        <span> This is a small section of text</span> them to explore how
+        computing and technology can impact the world. Students work in teams to
+        create apps for mobile devices.
+        <b>I can use b to make things bold.</b> They explore the impact of
+        computing in society and build skills in digital citizenship and
         cybersecurity.
         <strong
           >I can also use strong to make things bold. But strong has other uses
@@ -52,13 +56,15 @@
         in
         <em> We can use em or emphasize to make italics</em>
       </p>
-      <p>
+
+      <!-- lets use IDs (only for single element)-->
+      <p id="newPar">
         and apply their knowledge to create algorithms for games of chance and
         strategy.
       </p>
     </article>
     <!-- make the first letter of each word bold -->
-    <p>
+    <p id="newPar">
       HTML stands for <strong>H</strong>ype<strong>r</strong> Text Markup
       Language
     </p>
@@ -69,7 +75,8 @@
 
     <p>Lets make a list of the best icecream flavors:</p>
     <!-- we can use <ol><li></li></ol> to make ordered lists -->
-    <ol>
+    <!-- lets add a class -->
+    <ol class="newList">
       <li><a href="https://en.wikipedia.org/wiki/Chocolate">Chocolate</a></li>
       <li>Vanilla</li>
       <li>Chocolate</li>
