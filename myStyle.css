@@ -18,6 +18,10 @@ h2 {
 p {
   font-size: 20px;
   font-family: Arial;
-  color: darkslategray;
+  color: rgb(61, 226, 28);
   line-height: 2;
+}
+
+nav {
+  background-color: rgb(255, 187, 0);
 }
