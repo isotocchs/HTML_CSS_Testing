@@ -1,12 +1,29 @@
-h1 {
+h1,
+h2,
+h3,
+h4,
+p,
+span {
+  color: rgb(29, 127, 127);
+  font-size: 30px;
+  font-family: fantasy;
+  text-transform: uppercase;
+  font-style: oblique;
+}
+
+ol {
+  list-style: lower-greek;
+}
+
+/* h1 {
   color: chocolate;
   font-size: 30px;
   font-family: Arial;
   text-transform: uppercase;
   font-style: italic;
-}
+} */
 
-h2,
+/* h2,
 h3,
 h4 {
   color: rgb(122, 210, 58);
@@ -40,4 +57,4 @@ nav p {
 
 .newList {
   list-style: lower-greek;
-}
+} */
