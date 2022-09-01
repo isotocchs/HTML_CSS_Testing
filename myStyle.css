@@ -12,7 +12,39 @@ span {
 }
 
 ol {
-  list-style: lower-greek;
+  list-style: upper-roman;
+  color: rgb(29, 127, 127);
+  font-size: 30px;
+  font-family: fantasy;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style-type: square;
+}
+
+footer ul {
+  background-color: #10243b;
+  color: blanchedalmond;
+}
+
+body {
+  background-color: khaki;
+}
+
+#bob {
+  background-color: blueviolet;
+  color: chartreuse;
+  font-size: 50px;
+}
+
+.orangeStuff {
+  background-color: orange;
+  font-stretch: extra-condensed;
+}
+
+a {
+  color: aquamarine;
 }
 
 /* h1 {
@@ -39,22 +71,4 @@ span {
   color: darkred;
 }
 
-p {
-  font-size: 20px;
-  font-family: Arial;
-  color: rgb(61, 226, 28);
-  line-height: 2;
-}
 
-nav p {
-  background-color: rgb(255, 187, 0);
-}
-
-#newPar {
-  font-style: italic;
-  color: brown;
-}
-
-.newList {
-  list-style: lower-greek;
-} */
