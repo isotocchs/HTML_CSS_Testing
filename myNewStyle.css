@@ -1,0 +1,37 @@
+h1,
+h2,
+h3,
+h4,
+p,
+ol {
+  font-size: small;
+  text-transform: uppercase;
+  font-family: Tahoma;
+}
+
+body {
+  background-color: floralwhite;
+}
+
+ol {
+  list-style: georgian;
+}
+
+#bob {
+  background-color: rgb(38, 87, 203);
+  font-size: x-large;
+  font-family: fantasy;
+}
+
+#amazing {
+  background-color: #10243b;
+  color: aliceblue;
+}
+.per7 {
+  background-color: #333333;
+}
+
+button {
+  font-family: fantasy;
+  font-size: 20px;
+}
