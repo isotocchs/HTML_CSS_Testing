@@ -10,7 +10,7 @@ ol {
 }
 
 body {
-  background-color: burlywood;
+  background-color: rgb(224, 213, 198);
 }
 
 ol {
@@ -27,11 +27,30 @@ ol {
   background-color: #10243b;
   color: aliceblue;
 }
-.per7 {
+.perk {
   background-color: #333333;
 }
 
 button {
   font-family: fantasy;
   font-size: 20px;
+}
+
+footer {
+  border: 5px solid #db773d;
+  /* border: 5px dashed #db773d; */
+  /* border: 5px dotted #db773d; */
+  /* border-top: 5px solid #2e43a2;
+  border-left: 5px solid #2ea241;
+  border-bottom: 5px solid #a22e8d;
+  border-right: 5px solid #df3232; */
+}
+
+/* Pseudo classes */
+footer::first-line {
+  color: cyan;
+}
+
+footer:last-of-type {
+  color: red;
 }
