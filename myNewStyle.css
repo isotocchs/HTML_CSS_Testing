@@ -37,17 +37,26 @@ button {
 }
 
 footer {
-  border: 5px solid #db773d;
+  /* border: 5px solid #d618c0; */
   /* border: 5px dashed #db773d; */
   /* border: 5px dotted #db773d; */
-  /* border-top: 5px solid #2e43a2;
+  border-top: 5px dashed #2e43a2;
   border-left: 5px solid #2ea241;
   border-bottom: 5px solid #a22e8d;
-  border-right: 5px solid #df3232; */
+  border-right: 5px solid #df3232;
+}
+.newList {
+  border-bottom: 5px solid #a22e8d;
 }
 
 /* Pseudo classes */
-footer::first-line {
+ul:nth-child(odd) {
+  color: #2ea241;
+  font-family: Geneva;
+  font-size: xx-large;
+}
+
+footer:first-line {
   color: cyan;
 }
 
