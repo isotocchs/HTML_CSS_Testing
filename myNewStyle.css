@@ -10,7 +10,7 @@ ol {
 }
 
 body {
-  background-color: rgb(224, 213, 198);
+  background-color: aliceblue;
 }
 
 ol {
@@ -35,6 +35,22 @@ button {
   font-family: fantasy;
   font-size: 20px;
 }
+button:hover {
+  background-color: #df3232;
+}
+
+#firstP {
+  border: 10px dashed #d74922;
+  border-radius: 10px;
+}
+
+span {
+  border: 1px dashed #d74922;
+}
+
+ol {
+  border: 10px solid #d618c0;
+}
 
 footer {
   /* border: 5px solid #d618c0; */
@@ -45,11 +61,16 @@ footer {
   border-bottom: 5px solid #a22e8d;
   border-right: 5px solid #df3232;
 }
-.newList {
+/* .newList {
   border-bottom: 5px solid #a22e8d;
-}
+} */
 
 /* Pseudo classes */
+
+/* p {
+  background-color: blueviolet;
+} */
+
 ul:nth-child(odd) {
   color: #2ea241;
   font-family: Geneva;
@@ -57,9 +78,67 @@ ul:nth-child(odd) {
 }
 
 footer:first-line {
-  color: cyan;
+  color: rgb(233, 23, 145);
 }
 
 footer:last-of-type {
   color: red;
 }
+/* #joe {
+  font-size: xx-large;
+}
+#great {
+  font-size: x-small;
+}
+nav::first-line {
+  font-size: xx-large;
+} */
+
+footer::first-line {
+  background-color: #d4132a;
+}
+
+ol li:nth-child(4n - 1) {
+  background-color: dimgray;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(131, 3, 3);
+}
+
+a:hover {
+  background-color: rgb(60, 60, 228);
+  font-weight: bold;
+  text-decoration: underline solid green;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+
+/* CSS Box model */
+/* Content - Width and Height
+Padding is the spance between the content and the border.
+Margin is the space between the border and other elements. */
+
+nav {
+  background-color: #d4132a;
+  /* padding: 30px; */
+  /* padding-left: 100px; */
+  /* padding-right: 100px; */
+  /* margin-bottom: 50px; */
+}
+
+/* global css parameter */
+/* Used for reset */
+
+/* * {
+  margin: 0;
+  padding: 0;
+} */
