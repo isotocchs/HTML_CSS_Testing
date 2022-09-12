@@ -10,182 +10,185 @@
     <title>CS Web page test</title>
   </head>
   <body>
-    <header>
-      <h1 class="perk" id="amazing">This is my first heading</h1>
-      <p>this is my first paragraph using p tags</p>
-      <p>this is my second paragraph using p tags</p>
-    </header>
-    <!-- this is some information -->
+    <div class="container">
+      <header>
+        <h1 class="perk" id="amazing">This is my first heading</h1>
+        <p>this is my first paragraph using p tags</p>
+        <p>this is my second paragraph using p tags</p>
+      </header>
+      <!-- this is some information -->
 
-    <!-- we can use comments to explain our code and to get rif of things we don't want right now. -->
-    <!-- <h1>This is my first heading</h1>
+      <!-- we can use comments to explain our code and to get rif of things we don't want right now. -->
+      <!-- <h1>This is my first heading</h1>
     <p>this is my first paragraph using p tags</p> -->
-    <article>
-      <h2 class="perk">
-        This is the second heading. Its smaller beacues I'm using h2 instead of
-        h1
-      </h2>
-      <h3 class="perk">
-        This is the second heading. Its smaller beacues I'm using h3 instead of
-        h1
-      </h3>
 
-      <!-- lets try some inline css -->
-      <!-- you can use <span></span> to select one section of text -->
+      <article>
+        <h2 class="perk">
+          This is the second heading. Its smaller beacues I'm using h2 instead
+          of h1
+        </h2>
+        <h3 class="perk">
+          This is the second heading. Its smaller beacues I'm using h3 instead
+          of h1
+        </h3>
 
-      <p id="firstP">
-        This is my second paragraph. I just got this off the CCHS website. This
-        course introduces students to the foundational concepts of computer
-        science and challenges
-        <span> This is a small section of text</span>
-        them to explore how computing and technology can impact the world.
-        Students work in teams to create apps for mobile devices.
-        <b>I can use b to make things bold.</b> They explore the impact of
-        computing in societ<span>y</span> and build skills in digital
-        citizenship and cybersecurity.
-        <strong
-          >I can also use strong to make things bold. But strong has other uses
-          that we will talk about later.</strong
-        >
-        Beyond learning the fundamentals of programming, students build
-        computational-thinking skills by applying computer science to
-        collaboration tools, modeling and simulation, and data analysis.
-      </p>
-      <p class="orangeStuff">
-        <i>I can use i to make things italics</i>
-        In addition, students transfer the understanding of programming gained
-        in
-        <em> We can use em or emphasize to make italics</em>
-      </p>
+        <!-- lets try some inline css -->
+        <!-- you can use <span></span> to select one section of text -->
 
-      <!-- lets use IDs (only for single element)-->
+        <p id="firstP" class="firstPar" style="color: aqua">
+          This is my paragraph. I just got this off the CCHS website. This
+          course introduces students to the foundational concepts of computer
+          science and challenges
+          <span> This is a small section of text</span>
+          them to explore how computing and technology can impact the world.
+          Students work in teams to create apps for mobile devices.
+          <b>I can use b to make things bold.</b> They explore the impact of
+          computing in societ<span>y</span> and build skills in digital
+          citizenship and cybersecurity.
+          <strong
+            >I can also use strong to make things bold. But strong has other
+            uses that we will talk about later.</strong
+          >
+          Beyond learning the fundamentals of programming, students build
+          computational-thinking skills by applying computer science to
+          collaboration tools, modeling and simulation, and data analysis.
+        </p>
+        <p class="orangeStuff">
+          <i>I can use i to make things italics</i>
+          In addition, students transfer the understanding of programming gained
+          in
+          <em> We can use em or emphasize to make italics</em>
+        </p>
+
+        <!-- lets use IDs (only for single element)-->
+        <p id="newPar">
+          and apply their knowledge to create algorithms for games of chance and
+          strategy.
+        </p>
+      </article>
+      <!-- make the first letter of each word bold -->
       <p id="newPar">
-        and apply their knowledge to create algorithms for games of chance and
-        strategy.
+        HTML stands for <strong>H</strong>ype<strong>r</strong> Text Markup
+        Language
       </p>
-    </article>
-    <!-- make the first letter of each word bold -->
-    <p id="newPar">
-      HTML stands for <strong>H</strong>ype<strong>r</strong> Text Markup
-      Language
-    </p>
 
-    <p>
-      <strong>Testing</strong>
-    </p>
+      <p>
+        <strong>Testing</strong>
+      </p>
 
-    <p>Lets make a list of the best icecream flavors:</p>
-    <!-- we can use <ol><li></li></ol> to make ordered lists -->
-    <!-- lets add a class -->
-    <ol class="newList">
-      <li><a href="https://en.wikipedia.org/wiki/Chocolate">Chocolate</a></li>
-      <li>Vanilla</li>
-      <li>Chocolate</li>
-      <li>Strawberry</li>
-      <li>Chocolate</li>
-      <li>Chocolate</li>
-      <li>Rocky Road</li>
-      <li>Peanut butter</li>
-    </ol>
+      <p>Lets make a list of the best icecream flavors:</p>
+      <!-- we can use <ol><li></li></ol> to make ordered lists -->
+      <!-- lets add a class -->
+      <ol class="newList">
+        <li><a href="https://en.wikipedia.org/wiki/Chocolate">Chocolate</a></li>
+        <li>Vanilla</li>
+        <li>Chocolate</li>
+        <li>Strawberry</li>
+        <li>Chocolate</li>
+        <li>Chocolate</li>
+        <li>Rocky Road</li>
+        <li>Peanut butter</li>
+      </ol>
 
-    <!-- we can use <ul><li></li></ul> to make unordered lists -->
-    <ul>
-      <li>Chocolate tjhis is longer than one word</li>
-      <li>Vanilla</li>
-      <li>Strawberry</li>
-      <li>Strawberry</li>
-    </ul>
+      <!-- we can use <ul><li></li></ul> to make unordered lists -->
+      <ul>
+        <li>Chocolate tjhis is longer than one word</li>
+        <li>Vanilla</li>
+        <li>Strawberry</li>
+        <li>Strawberry</li>
+      </ul>
 
-    <p id="bob">Lets add some images</p>
-    <!-- src is the source of the image. Where is it? -->
-    <!-- alt is the info about the image. Helps search engines know what it is. 
+      <p id="bob">Lets add some images</p>
+      <!-- src is the source of the image. Where is it? -->
+      <!-- alt is the info about the image. Helps search engines know what it is. 
       Also for blind people or people who use a screen reader
       Alt is also what is displayed when the browser can't find the image -->
-    <!-- you can also set the width and the height. Be careful with distorting the image. 
+      <!-- you can also set the width and the height. Be careful with distorting the image. 
       You can just use the atribute that is most important to you. -->
 
-    <img src="img/catInBasket.jpeg" height="300" alt="Cat in Basket" />
+      <img src="img/catInBasket.jpeg" height="300" alt="Cat in Basket" />
 
-    <a href="https://en.wikipedia.org/wiki/Banana" target="_blank"
-      ><img src="img/banana.jpeg" alt="bannana" width="500"
-    /></a>
-
-    <h3 class="perk">This is some info about the banana</h3>
-    <!-- lets make some links we use <a></a> for anchor-->
-    <p>
       <a href="https://en.wikipedia.org/wiki/Banana" target="_blank"
-        >We can make a link to the Some Link</a
-      >
-    </p>
+        ><img src="img/banana.jpeg" alt="bannana" width="500"
+      /></a>
 
-    <p>
-      We can make a link that open on another tab by adding target="_blank"
-      <a href="https://en.wikipedia.org/wiki/Banana" target="_blank">
-        new Link
-      </a>
-    </p>
+      <h3 class="perk">This is some info about the banana</h3>
+      <!-- lets make some links we use <a></a> for anchor-->
+      <p>
+        <a href="https://en.wikipedia.org/wiki/Banana" target="_blank"
+          >We can make a link to the Some Link</a
+        >
+      </p>
 
-    <p id="bob">You can also make an image a link</p>
+      <p>
+        We can make a link that open on another tab by adding target="_blank"
+        <a href="https://en.wikipedia.org/wiki/Banana" target="_blank">
+          new Link
+        </a>
+      </p>
 
-    <a href="https://en.wikipedia.org/wiki/Broccoli" target="_blank"
-      ><img
-        id="legos"
-        src="https://i5.walmartimages.com/asr/f9fceef1-36b0-43e0-91c8-2c975616c6a1.16093d08a95ec69bfe35ebf26707ea2c.jpeg"
-        alt="Broccoli"
-        width="500px"
-        height="500px"
-    /></a>
+      <p id="bob">You can also make an image a link</p>
 
-    <!-- New html5 tags that will help -  nav, header, article, footer, aside -->
-    <!-- These tags are used to organize your page. It also helps standardise 
+      <a href="https://en.wikipedia.org/wiki/Broccoli" target="_blank"
+        ><img
+          id="legos"
+          src="https://i5.walmartimages.com/asr/f9fceef1-36b0-43e0-91c8-2c975616c6a1.16093d08a95ec69bfe35ebf26707ea2c.jpeg"
+          alt="Broccoli"
+          width="500px"
+          height="500px"
+      /></a>
+
+      <!-- New html5 tags that will help -  nav, header, article, footer, aside -->
+      <!-- These tags are used to organize your page. It also helps standardise 
     your site and give it a consistent look when we start using CSS-->
 
-    <nav>
-      <p class="orangeStuff">
-        We can make a link to our
-        <a href="secondPage.html">Second Page</a>.
-      </p>
-      <p class="orangeStuff">
-        We can make a link to our
-        <a href="thirdPage.html">Third Page</a>.
-      </p>
-    </nav>
-    <footer>
-      <p>This is the <a href="google.com">footer</a> for the page</p>
-      <ul id="JOJO">
-        <li id="joe">Chocolate this is longer than one word</li>
-        <li id="great">Vanilla</li>
-        <li>Strawberry</li>
-        <li>Strawberr<span id="justY">y</span></li>
-      </ul>
-      <p>Copyright &copy; Mr Soto 2022 &hearts;</p>
-      <!-- <img src="img/hat.jpeg" alt="blue graduation hat" height="300" /> -->
-    </footer>
+      <nav>
+        <p class="orangeStuff">
+          We can make a link to our
+          <a href="secondPage.html">Second Page</a>.
+        </p>
+        <p class="orangeStuff">
+          We can make a link to our
+          <a href="thirdPage.html">Third Page</a>.
+        </p>
+      </nav>
+      <footer>
+        <p>This is the <a href="google.com">footer</a> for the page</p>
+        <ul id="JOJO">
+          <li id="joe">Chocolate this is longer than one word</li>
+          <li id="great">Vanilla</li>
+          <li>Strawberry</li>
+          <li>Strawberr<span id="justY">y</span></li>
+        </ul>
+        <p>Copyright &copy; Mr Soto 2022 &hearts;</p>
+        <!-- <img src="img/hat.jpeg" alt="blue graduation hat" height="300" /> -->
+      </footer>
 
-    <!-- Lets make sure everyone has the same extension - HTML Snippets, HTML CSS,
+      <!-- Lets make sure everyone has the same extension - HTML Snippets, HTML CSS,
     Intellisense, live server, pretty (set defualt), image preview, color
     highlight, auto rename tag. -->
 
-    <!-- best practice for img folder - img/ in front of picture names -->
+      <!-- best practice for img folder - img/ in front of picture names -->
 
-    <!-- img source can be from url - copy img address -->
+      <!-- img source can be from url - copy img address -->
 
-    <!-- <img src="https://i.redd.it/gh4azi3vofk91.jpg" alt="cat" width="500" /> -->
+      <!-- <img src="https://i.redd.it/gh4azi3vofk91.jpg" alt="cat" width="500" /> -->
 
-    <!-- making a basic button -->
+      <!-- making a basic button -->
 
-    <a href="https://en.wikipedia.org/wiki/Button"
-      ><button>Cool Button</button></a
-    >
+      <a href="https://en.wikipedia.org/wiki/Button"
+        ><button>Cool Button</button></a
+      >
 
-    <button>New Button</button>
+      <button>New Button</button>
 
-    <iframe
-      width="420"
-      height="345"
-      src="https://www.youtube.com/embed/tgbNymZ7vqY"
-    >
-    </iframe>
+      <iframe
+        width="420"
+        height="345"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY"
+      >
+      </iframe>
+    </div>
 
     <!-- search for how html tags work on google -->
   </body>

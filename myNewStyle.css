@@ -1,4 +1,4 @@
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -54,13 +54,13 @@ ol {
 
 footer {
   /* border: 5px solid #d618c0; */
-  /* border: 5px dashed #db773d; */
-  /* border: 5px dotted #db773d; */
-  border-top: 5px dashed #2e43a2;
-  /* border-left: 5px solid #2ea241;
+/* border: 5px dashed #db773d; */
+/* border: 5px dotted #db773d; */
+/* border-top: 5px dashed #2e43a2; */
+/* border-left: 5px solid #2ea241;
   border-bottom: 5px dotted #a22e8d;
   border-right: 5px solid #df3232; */
-}
+/* } */
 /* .newList {
   border-bottom: 5px solid #a22e8d;
 } */
@@ -71,7 +71,7 @@ footer {
   background-color: blueviolet;
 } */
 
-ul:nth-child(odd) {
+/* ul:nth-child(odd) {
   color: #2ea241;
   font-family: Geneva;
   font-size: xx-large;
@@ -83,7 +83,7 @@ footer:first-line {
 
 footer:last-of-type {
   color: red;
-}
+} */
 /* #joe {
   font-size: xx-large;
 }
@@ -94,11 +94,11 @@ nav::first-line {
   font-size: xx-large;
 } */
 
-footer::first-line {
+/* footer::first-line {
   /* background-color: #d4132a; */
-}
+/* } */
 
-ol li:nth-child(4n - 1) {
+/* ol li:nth-child(4n - 1) {
   background-color: dimgray;
 }
 
@@ -109,42 +109,93 @@ a:link {
 
 a:visited {
   color: rgb(131, 3, 3);
-}
+} */
 
-a:hover {
-  background-color: rgb(60, 60, 228);
+/* a:hover { */
+/* background-color: rgb(60, 60, 228);
   font-weight: bold;
-  text-decoration: underline solid green;
-}
+  text-decoration: underline solid green; */
+/* } */
 
-a:active {
+/* a:active {
   background-color: black;
   font-style: italic;
-}
+} */
 
 /* CSS Box model */
 /* Content - Width and Height
 Padding is the spance between the content and the border.
 Margin is the space between the border and other elements. */
 
-nav {
+/* nav {
   background-color: #d4132a;
   padding: 30px;
   /* padding-left: 100px; */
-  /* padding-right: 100px; */
-  margin-bottom: 50px;
+/* padding-right: 100px; */
+/* margin-bottom: 50px;
   margin-left: 30px;
   margin-right: 300px;
-  border: 5px dashed blue;
-}
-#legos {
+  border: 5px dashed blue; */
+/* } */
+/* #legos {
   margin-bottom: 30px;
-}
+}  */
 
 /* global css parameter */
 /* Used for reset */
 
-/* * {
+* {
   margin: 0;
   padding: 0;
-} */
+  /* font-family: fantasy; */
+  /* border: 5px solid red; */
+  color: blue;
+}
+
+p {
+  color: red !important;
+}
+
+.firstPar {
+  color: black;
+}
+
+#firstP {
+  color: brown;
+}
+
+ul,
+ol {
+  margin-left: 20px;
+}
+
+footer {
+  border-top: 10px ridge rgb(219, 46, 46);
+  border-bottom: 10px dashed blue;
+  border-left: 10px double green;
+  border-right: 10px groove rgb(255, 208, 0);
+  border-radius: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 30px;
+}
+
+#legos {
+  height: auto;
+  width: 100%;
+}
+
+nav {
+  border: 10px dotted violet;
+  width: 200px;
+}
+
+/* centering the page */
+
+.container {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
