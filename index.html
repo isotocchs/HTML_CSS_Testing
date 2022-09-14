@@ -10,11 +10,15 @@
     <title>CS Web page test</title>
   </head>
   <body>
-    <div class="bobapple">
+    <div id="bobapple">
       <header>
-        <h1 class="perk" id="amazing">This is my first heading</h1>
-        <p>this is my first paragraph using p tags</p>
-        <p>this is my second paragraph using p tags</p>
+        <h1>This is my Navigation</h1>
+        <nav>
+          <a href="secondPage.html"> Second Page</a>
+          <a href="thirdPage.html"> Third Page</a>
+          <a href="https://www.google.com"> Search</a>
+          <a href="https://www.youtube.com/"> Videos</a>
+        </nav>
       </header>
       <!-- this is some information -->
 
@@ -106,54 +110,21 @@
       <!-- you can also set the width and the height. Be careful with distorting the image. 
       You can just use the atribute that is most important to you. -->
 
-      <img src="img/catInBasket.jpeg" height="300" alt="Cat in Basket" />
+      <button id="likeButton">👍 Like</button>
 
-      <a href="https://en.wikipedia.org/wiki/Banana" target="_blank"
-        ><img src="img/banana.jpeg" alt="bannana" width="500"
-      /></a>
-
-      <h3 class="perk">This is some info about the banana</h3>
-      <!-- lets make some links we use <a></a> for anchor-->
-      <p>
-        <a href="https://en.wikipedia.org/wiki/Banana" target="_blank"
-          >We can make a link to the Some Link</a
-        >
-      </p>
-
-      <p>
-        We can make a link that open on another tab by adding target="_blank"
-        <a href="https://en.wikipedia.org/wiki/Banana" target="_blank">
-          new Link
-        </a>
-      </p>
-
-      <p id="bob">You can also make an image a link</p>
-
-      <a href="https://en.wikipedia.org/wiki/Broccoli" target="_blank"
-        ><img
-          id="legos"
-          src="https://i5.walmartimages.com/asr/f9fceef1-36b0-43e0-91c8-2c975616c6a1.16093d08a95ec69bfe35ebf26707ea2c.jpeg"
-          alt="Broccoli"
-          width="500px"
-          height="500px"
-      /></a>
+      <img id="cat" src="img/catInBasket.jpeg" alt="Cat in Basket" />
+      <img id="hat" src="img/hat.jpeg" alt="blue graduation hat" />
 
       <!-- New html5 tags that will help -  nav, header, article, footer, aside -->
       <!-- These tags are used to organize your page. It also helps standardise 
     your site and give it a consistent look when we start using CSS-->
 
-      <nav>
-        <p class="orangeStuff">
-          We can make a link to our
-          <a href="secondPage.html">Second Page</a>.
-        </p>
-        <p class="orangeStuff">
-          We can make a link to our
-          <a href="thirdPage.html">Third Page</a>.
-        </p>
-      </nav>
       <footer>
-        <p>This is the <a href="google.com">footer</a> for the page</p>
+        <p>
+          This is the
+          <a id="motorcycle" href="https://www.google.com">footer</a> for the
+          page
+        </p>
         <ul id="JOJO">
           <li id="joe">Chocolate this is longer than one word</li>
           <li id="great">Vanilla</li>
@@ -161,7 +132,6 @@
           <li>Strawberr<span id="justY">y</span></li>
         </ul>
         <p>Copyright &copy; Mr Soto 2022 &hearts;</p>
-        <!-- <img src="img/hat.jpeg" alt="blue graduation hat" height="300" /> -->
       </footer>
 
       <!-- Lets make sure everyone has the same extension - HTML Snippets, HTML CSS,
@@ -175,19 +145,6 @@
       <!-- <img src="https://i.redd.it/gh4azi3vofk91.jpg" alt="cat" width="500" /> -->
 
       <!-- making a basic button -->
-
-      <a href="https://en.wikipedia.org/wiki/Button"
-        ><button>Cool Button</button></a
-      >
-
-      <button>New Button</button>
-
-      <iframe
-        width="420"
-        height="345"
-        src="https://www.youtube.com/embed/tgbNymZ7vqY"
-      >
-      </iframe>
     </div>
   </body>
 </html>

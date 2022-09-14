@@ -154,6 +154,8 @@ Margin is the space between the border and other elements. */
 
 p {
   color: red !important;
+  margin-top: 30px;
+  /* display: inline; */
 }
 
 .firstPar {
@@ -182,22 +184,94 @@ footer {
   padding-left: 30px;
 }
 
-#legos {
+#cat {
   height: auto;
-  width: 100%;
+  width: 45%;
+  /* margin-left: 25%; */
+}
+#hat {
+  height: auto;
+  width: 45%;
 }
 
 nav {
-  border: 10px dotted violet;
+  /* border: 10px dotted violet; */
   /* width: 300px; */
-  margin-left: 100px;
-  margin-right: 100px;
+  /* margin-left: 100px; */
+  /* margin-right: 100px; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+a {
+  margin-right: 20px;
 }
 
 /* centering the page */
 
-.bobapple {
-  width: 400px;
+#bobapple {
+  width: 450px;
   margin-left: auto;
   margin-right: auto;
 }
+
+#motorcycle {
+  height: 500px;
+  width: 500px;
+  /* margin: 40px; */
+  /* margin-right: 40px; */
+  /* padding: 40px; */
+  /* display: block; */
+}
+li {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+/* types of boxes */
+/* Inline boxes are withing the text or elements. 
+They occupy just the space they need. 
+Heights and widths do not apply. Paddings only internal and margins 
+only apply horizontally. 
+Examples: a, strong, em, button, etc. */
+
+/* Use display: block; to turn them into block level elements. */
+
+/* Block level elements are the sections of the page. p, nav, footer etc.  
+These elements occupy all the space they can horizontally.
+That means that they occupy 100% of the parent element's width*/
+
+/* Use display: inline; to turn them into inline level elements. */
+
+/* Inline-Block boxes - use display: inline-block;  */
+/* Occupies only space needed, causes no line breaks. */
+/* Can set heaight and widths and can use margins and paddings. */
+/* Images are an example of this */
+
+/* Positioning */
+
+/* The default positioning is relative. Elements are layed out in their order
+within the HTML code */
+
+/* Absolute positining sets the element in place */
+
+#likeButton {
+  font-size: 20px;
+  padding: 20px;
+
+  position: absolute;
+  /* top: 0; */
+  left: 0;
+  /* right: 0; */
+  bottom: 0;
+}
+
+/* relative positioning */
+
+body {
+  position: relative;
+}
+
+/* #bobapple {
+  position: relative;
+} */
