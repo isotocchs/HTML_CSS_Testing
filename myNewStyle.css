@@ -193,6 +193,19 @@ footer {
   height: auto;
   width: 45%;
 }
+#catHat {
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  from {
+    top: 100;
+  }
+  to {
+    top: 400;
+  }
+}
 
 nav {
   /* border: 10px dotted violet; */
@@ -260,9 +273,9 @@ within the HTML code */
   padding: 20px;
 
   position: absolute;
-  /* top: 0; */
-  left: 0;
-  /* right: 0; */
+  /* top: 100px; */
+  /* left: 100px; */
+  right: 0;
   bottom: 0;
 }
 
@@ -275,3 +288,22 @@ body {
 /* #bobapple {
   position: relative;
 } */
+
+/* footer {
+  position: relative;
+} */
+
+/* Floats */
+.authorImg {
+  height: auto;
+  width: 100px;
+  float: left;
+}
+
+.authorInfo {
+  font-size: 15px;
+  float: left;
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
