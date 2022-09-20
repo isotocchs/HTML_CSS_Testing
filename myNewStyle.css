@@ -294,15 +294,16 @@ body {
 } */
 
 /* Floats */
+
 .authorImg {
   height: auto;
-  width: 100px;
+  width: 150px;
   float: left;
+  margin-right: 20px;
 }
 
 .authorInfo {
   font-size: 15px;
-  float: left;
   margin-left: 15px;
   margin-top: 20px;
   margin-bottom: 100px;
