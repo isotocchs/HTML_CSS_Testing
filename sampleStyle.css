@@ -32,7 +32,7 @@ a:link {
 
 #sampleHeader {
   margin: 0;
-  background-color: rgb(255, 244, 227);
+  background-color: rgb(204, 139, 41);
   padding: 10px 20px;
 }
 
@@ -82,7 +82,7 @@ aside {
   float: right;
   border-top: 5px dashed rgb(237, 86, 86);
   border-bottom: 5px dashed rgb(237, 86, 86);
-  background-color: rgb(255, 244, 227);
+  background-color: rgb(204, 139, 41);
   margin-top: 20px;
 }
 
@@ -103,5 +103,4 @@ aside p {
 footer {
   clear: both;
   border: 2px solid rgb(45, 165, 240);
-  margin-top: 100px;
 }
