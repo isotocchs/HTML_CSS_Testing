@@ -156,6 +156,7 @@ p {
   color: red !important;
   margin-top: 30px;
   /* display: inline; */
+  /* background-color: orange; */
 }
 
 .firstPar {
@@ -284,18 +285,18 @@ body {
 
 .authorImg {
   height: auto;
-  width: 150px;
+  width: 100px;
   float: left;
   margin-right: 20px;
   margin-bottom: 20px;
 }
 
 .authorInfo {
-  float: right;
+  /* float: right; */
   font-size: 15px;
   margin-left: 15px;
   margin-top: 20px;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 /* clearing floats */
@@ -315,13 +316,19 @@ nav {
   background-color: rgb(43, 226, 86);
 }
 
-/* .clearDiv {
+.fixHeader {
   clear: both;
-  background-color: darkgoldenrod;
-} */
+  /* background-color: fuchsia; */
+}
 
-.clearFixClass::after {
+/* .headerFix::after {
   clear: both;
   content: "";
   display: block;
-}
+} */
+
+/* .clearFixClass::after {
+  clear: both;
+  content: "";
+  display: block;
+} */ ;
