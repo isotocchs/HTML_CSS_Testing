@@ -32,7 +32,7 @@ a:link {
 
 #sampleHeader {
   margin: 0;
-  background-color: blanchedalmond;
+  background-color: rgb(255, 244, 227);
   padding: 10px 20px;
 }
 
@@ -68,34 +68,40 @@ p {
 }
 
 .separator {
-  clear: both;
   padding: 5px;
   background-color: aquamarine;
 }
 
 article {
-  width: 350px;
+  width: 345px;
   float: left;
+  margin-bottom: 20px;
 }
 aside {
-  width: 150px;
+  width: 145px;
   float: right;
   border-top: 5px dashed rgb(237, 86, 86);
   border-bottom: 5px dashed rgb(237, 86, 86);
+  background-color: rgb(255, 244, 227);
+  margin-top: 20px;
 }
 
 aside img {
   height: auto;
   width: 75%;
-  margin: 10px 25%;
+  padding: 5px 12.5%;
 }
 aside p {
   font-size: 10px;
-  margin: 0 25%;
+  padding: 0 12.5%;
+  margin-bottom: 5px;
+}
+.lastP {
+  margin-bottom: 15px;
 }
 
 footer {
   clear: both;
   border: 2px solid rgb(45, 165, 240);
-  margin-top: 10px;
+  margin-top: 100px;
 }
