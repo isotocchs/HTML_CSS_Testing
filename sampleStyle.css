@@ -68,14 +68,34 @@ p {
 }
 
 .separator {
+  clear: both;
   padding: 5px;
   background-color: aquamarine;
 }
 
-footer {
-  border: 2px solid rgb(45, 165, 240);
-  margin-top: 10px;
+article {
+  width: 350px;
+  float: left;
+}
+aside {
+  width: 150px;
+  float: right;
+  border-top: 5px dashed rgb(237, 86, 86);
+  border-bottom: 5px dashed rgb(237, 86, 86);
 }
 
-aside {
+aside img {
+  height: auto;
+  width: 75%;
+  margin: 10px 25%;
+}
+aside p {
+  font-size: 10px;
+  margin: 0 25%;
+}
+
+footer {
+  clear: both;
+  border: 2px solid rgb(45, 165, 240);
+  margin-top: 10px;
 }
