@@ -16,13 +16,13 @@ body {
 }
 
 nav {
-  color: rgb(45, 165, 240);
+  color: rgb(84, 226, 18);
   font-size: 15px;
   float: right;
 }
 
 a:visited {
-  color: rgb(45, 165, 240);
+  color: rgb(84, 226, 18);
 }
 
 a:link {

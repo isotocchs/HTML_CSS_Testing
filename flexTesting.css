@@ -1,0 +1,41 @@
+.container {
+  font-family: sans-serif;
+  background-color: hotpink;
+  font-size: 30px;
+  margin: 40px;
+  display: flex;
+  /* height: 250px; */
+  /* align-items: center; */
+  /* align-items: flex-end; */
+
+  /* default */
+  /* align-items: stretch; */
+
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+}
+.sl-1 {
+  background-color: red;
+}
+.sl-2 {
+  background-color: green;
+}
+.sl-3 {
+  background-color: gray;
+  /* height: 250px; */
+}
+.sl-4 {
+  background-color: blue;
+}
+.sl-5 {
+  background-color: aquamarine;
+}
+.sl-6 {
+  background-color: blueviolet;
+}
+.sl-7 {
+  background-color: darkkhaki;
+}
+.sl-8 {
+  background-color: coral;
+}
