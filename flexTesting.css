@@ -3,35 +3,43 @@
   background-color: hotpink;
   font-size: 30px;
   margin: 40px;
+
   display: flex;
-  /* height: 250px; */
-  /* align-items: center; */
-  /* align-items: flex-end; */
+
+  height: 250px;
+  align-items: center;
+  /* align-items: flex-start; */
 
   /* default */
   /* align-items: stretch; */
 
   /* justify-content: center; */
-  /* justify-content: space-between; */
+  justify-content: space-between;
+
+  /* gap: 30px; */
 }
 .sl-1 {
   background-color: red;
+  /* align-self: flex-start; */
 }
 .sl-2 {
   background-color: green;
 }
 .sl-3 {
   background-color: gray;
-  /* height: 250px; */
+  /* align-self: stretch; */
+  /* order: 2; */
 }
 .sl-4 {
   background-color: blue;
 }
 .sl-5 {
   background-color: aquamarine;
+  /* order: 1; */
 }
 .sl-6 {
   background-color: blueviolet;
+  /* order: -1; */
 }
 .sl-7 {
   background-color: darkkhaki;
