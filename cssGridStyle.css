@@ -31,13 +31,18 @@
   margin: 40px;
 
   display: grid;
-  /* grid-template-columns: 250px 150px; */
+  /* grid-template-columns: 250px 150px 250px; */
   /* grid-template-columns: 250px 250px 150px; */
-  /* grid-template-columns: 20% 20% 20%; */
-  /* grid-template-rows: 300px 200px; */
+
+  grid-template-columns: 75% 25%;
+
+  /* grid-template-rows: 400px 200px 300px 400px; */
+
+  grid-template-rows: 20% 20% 20% 20%;
+
   /* gap: 20px; */
-  /* column-gap: 10px; */
-  /* row-gap: 30px; */
+  column-gap: 10px;
+  row-gap: 30px;
 }
 
 .container2 {
