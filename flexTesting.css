@@ -13,37 +13,48 @@
   /* default */
   /* align-items: stretch; */
 
-  /* justify-content: center; */
+  justify-content: center;
   justify-content: space-between;
+  /* justify-content: flex-end; */
 
-  /* gap: 30px; */
+  /* gap: 25px; */
 }
 .sl-1 {
+  height: inherit;
   background-color: red;
   /* align-self: flex-start; */
+  order: 7;
 }
 .sl-2 {
   background-color: green;
+  order: 6;
 }
 .sl-3 {
   background-color: gray;
   /* align-self: stretch; */
-  /* order: 2; */
+  order: 4;
 }
 .sl-4 {
   background-color: blue;
+  align-self: flex-start;
+  /* justify-self: flex-end; */
+  order: 5;
 }
 .sl-5 {
   background-color: aquamarine;
-  /* order: 1; */
+  order: 2;
 }
 .sl-6 {
   background-color: blueviolet;
-  /* order: -1; */
+  align-self: flex-end;
+  order: -1;
 }
 .sl-7 {
   background-color: darkkhaki;
+  order: 3;
 }
 .sl-8 {
   background-color: coral;
+  /* align-self: stretch; */
+  order: 1;
 }
