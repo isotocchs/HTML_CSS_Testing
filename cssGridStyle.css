@@ -9,7 +9,8 @@
 }
 .sl-4 {
   background-color: blue;
-  /* height: 50px; */
+  /* height: 100px; */
+  /* width: 300px; */
 }
 .sl-5 {
   background-color: aquamarine;
@@ -26,19 +27,21 @@
 
 .container1 {
   font-family: sans-serif;
-  background-color: white;
+  background-color: rgb(251, 10, 195);
   font-size: 20px;
   margin: 40px;
 
   display: grid;
-  /* grid-template-columns: 250px 150px 250px; */
+
+  /* grid-template-columns: 250px 150px; */
+
   /* grid-template-columns: 250px 250px 150px; */
 
   grid-template-columns: 75% 25%;
 
-  /* grid-template-rows: 400px 200px 300px 400px; */
+  grid-template-rows: 100px 200px 300px 400px;
 
-  grid-template-rows: 20% 20% 20% 20%;
+  /* grid-template-rows: 20% 20% 20% 20%; */
 
   /* gap: 20px; */
   column-gap: 10px;
